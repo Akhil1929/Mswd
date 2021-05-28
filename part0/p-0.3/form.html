@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            part 0 
+        </title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+
+    <form class="registration">
+        <center>
+        <table class="reg" border="2">
+       
+
+       <tr>
+           <td>
+            <tr><td> FirstName : <input type="text" id="text1" class="input-field" placeholder="First Name" required><br><br></tr></td>
+            <tr><td> LastName  :  <input type="text" id="text2" class="input-field" placeholder="Last Name" required><br><br></tr></td>
+            <tr><td> Email     :  <input type="email" id="text3" class="input-field" placeholder="Email" required><br><br></tr></td>
+            <tr><td>  Mobile   :  <input type="text" id="text4" class="input-field" placeholder="Mobile No" required><br><br></tr></td>
+            <tr><td>   D.O.B   :  <input type="date" id="text5" class="input-field"  required><br><br></tr></td>
+            <tr><td>   Gender  :  <form><br>
+                <input type="radio" name="gender" value="male" required> Male <br>
+                <input type="radio" name="gender" value="female" required> Female <br>
+                
+                    <br></tr></td>
+             <tr><td>Address   :  <textarea rows="3", columns="10" required></textarea></tr></td>
+                <tr><td><input type="checkbox" id="text6" required> I Agree</td></tr>
+                
+                <tr class="sub"><td> <input type="submit" value="enter" onclick="javascript:validate()" ></td></tr>
+                
+           </td>
+       </tr>
+       </table>
+       </center>
+     </form>
+    </body>
+</html>
